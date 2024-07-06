@@ -66,6 +66,10 @@
   padding: 30px;
 }
 
+.announcements-container h4 {
+  cursor: pointer;
+}
+
 .announcements-container p {
   color: #767676;
 }
@@ -97,6 +101,7 @@
 .trend {
   display: flex;
   margin: 10px 0;
+  cursor: pointer;
 }
 
 @media screen and (max-width:800px) {
@@ -294,6 +299,10 @@ img.mini-pfp{
   padding: 34px 20px;
 }
 
+.project-card > h4 {
+  cursor: pointer;
+}
+
 .project-card p {
   color: #767676;
 }
@@ -308,4 +317,8 @@ img.mini-pfp{
   height: 100%;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
+}
+
+.info > p {
+  color: #767676;
 }
